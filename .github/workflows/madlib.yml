@@ -3,7 +3,7 @@ on: issues
 name: Create MadLibs in GutHub Issues
 jobs:
   madlib:
-    runs-on ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
     - uses: bdougie/variables-in-markdown@v0.1.4
